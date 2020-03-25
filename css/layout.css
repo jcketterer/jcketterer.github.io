@@ -66,14 +66,14 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'opensans-bold', sans-serif;
-   color: #10A599;
+   color: #FFFFFF;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, 1.75);
+   text-shadow: 1px 1px .5px rgb(0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: #10A599;
 }
 header .banner-text hr {
    width: 60%;
@@ -84,8 +84,8 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-   margin: 24px 0;
-   padding: 0;
+   margin: 24px;
+   padding-left: 79px;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
@@ -203,13 +203,13 @@ ul#nav li.current a { color: rgb(16, 165, 153); }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #10A599;
 }
 #about .profile-pic {
    position: relative;
    width: 55rem;
    height: 30rem;
-   border: 0.5rem solid rgba(255, 255, 255, .3);
+   border: 0.5rem solid #10A599;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
