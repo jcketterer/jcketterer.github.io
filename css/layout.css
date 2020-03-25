@@ -85,13 +85,13 @@ header .banner-text hr {
 /* header social links */
 header .social {
    margin: 24px;
-   padding-left: 79px;
+   padding-left: 89px;
    font-size: 30px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
+   margin: 0 30px;
    padding: 0;
 }
 header .social li a { color: #fff; }
