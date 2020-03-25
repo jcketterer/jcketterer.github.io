@@ -62,14 +62,14 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 10px 2px 6px rgba(0, 0, 0, 10);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 18px/1.9em 'opensans-bold', sans-serif;
+   color: #10A599;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 1.75);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: rgb(16, 165, 153); }
 
 
 /* ------------------------------------------------------------------ */
@@ -207,8 +207,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 55rem;
+   height: 30rem;
+   border: 0.5rem solid rgba(255, 255, 255, .3);
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -325,83 +326,83 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.salesforce {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: salesforce 2s ease;
+  	-webkit-animation: salesforce 2s ease;
 }
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.tableau {
+  	width: 60%;
+  	-moz-animation: tableau 2s ease;
+  	-webkit-animation: tableau 2s ease;
 }
-.jquery {
+.python {
+  	width: 25%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+.htmlcss {
+  	width: 35%;
+  	-moz-animation: htmlcss 2s ease;
+  	-webkit-animation: htmlcss 2s ease;
+}
+.pandas {
+  	width: 70%;
+  	-moz-animation: pandas 2s ease;
+  	-webkit-animation: pandas 2s ease;
+}
+.javascript {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes salesforce {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes tableau {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
+@-moz-keyframes htmlcss {
+  0%   { width: 0px;  }
+  100% { width: 35%;  }
+}
+@-moz-keyframes pandas {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes salesforce {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes tableau {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 25%;  }
+}
+@-webkit-keyframes htmlcss {
+  0%   { width: 0px;  }
+  100% { width: 35%;  }
+}
+@-webkit-keyframes pandas {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
