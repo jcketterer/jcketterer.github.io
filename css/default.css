@@ -147,7 +147,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: rgb(92, 92, 92);
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -170,11 +170,11 @@ h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 .subheader {
-   font: 18px/1.9em 'opensans-bold', sans-serif;
+   font: 26px/1.9em 'opensans-bold', sans-serif;
    color: #ffffff;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 10px 2px 6px rgba(0, 0, 0, 10);
    padding-bottom: 25px;
    padding-top: 10px;
 }
@@ -580,14 +580,14 @@ legend {
 }
 label span,
 legend span {
-	color: #8B9798;
+	color: #5a5959;
    font: 14px/24px 'opensans-regular', sans-serif;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
     font-size: 15px;
-    color: #737373;
+    color: #5a5959;
 }
 
 input[type="checkbox"] { display: inline; }
